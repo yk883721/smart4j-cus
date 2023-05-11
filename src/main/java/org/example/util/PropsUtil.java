@@ -35,4 +35,37 @@ public class PropsUtil {
     }
 
 
+    public static String getString(Properties props, String key) {
+        return props.getProperty(key);
+    }
+
+    public static String getString(Properties props, String key, String defaultValue) {
+        return props.getProperty(key, defaultValue);
+    }
+
+    public static Integer getInt(Properties props, String key) {
+        return getInt(props, key);
+    }
+
+    public static Integer getInt(Properties props, String key, Integer defaultValue) {
+        Integer value = defaultValue;
+        if (props.contains(key)) {
+            value = CastUtil.castInt(props.getProperty(key));
+        }
+        return value;
+    }
+
+    public static boolean getBoolean(Properties props, String key) {
+        return getBoolean(props, key);
+    }
+
+    public static boolean getBoolean(Properties props, String key, boolean defaultValue) {
+        boolean value = defaultValue;
+        if (props.contains(key)) {
+            value = CastUtil.castBoolean(props.getProperty(key));
+        }
+        return value;
+    }
+
+
 }
