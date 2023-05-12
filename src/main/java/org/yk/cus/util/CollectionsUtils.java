@@ -1,4 +1,4 @@
-package org.example.util;
+package org.yk.cus.util;
 
 import java.util.Collection;
 import java.util.Map;

@@ -1,5 +1,4 @@
-package org.example.servlet;
-
+package org.yk.cus.servlet;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -11,18 +10,11 @@ import java.io.IOException;
 /**
  * @author admin
  */
-@WebServlet("customer_search")
-public class CustomerServlet extends HttpServlet {
+@WebServlet("customer_show")
+public class CustomerShowServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         super.doGet(req, resp);
     }
-
-    @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        super.doPost(req, resp);
-    }
-
-
 }

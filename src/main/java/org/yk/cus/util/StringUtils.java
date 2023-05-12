@@ -1,4 +1,4 @@
-package org.example.util;
+package org.yk.cus.util;
 
 public class StringUtils {
 

@@ -1,4 +1,4 @@
-package org.example.servlet;
+package org.yk.cus.servlet;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

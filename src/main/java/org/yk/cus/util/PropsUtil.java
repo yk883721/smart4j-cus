@@ -1,4 +1,4 @@
-package org.example.util;
+package org.yk.cus.util;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,7 +13,6 @@ import java.util.Properties;
 public class PropsUtil {
 
     private static final Logger logger = LoggerFactory.getLogger(PropsUtil.class);
-
 
     public static Properties loadProps(String filename) {
         Properties properties = null;
@@ -33,7 +32,6 @@ public class PropsUtil {
 
         return properties;
     }
-
 
     public static String getString(Properties props, String key) {
         return props.getProperty(key);
