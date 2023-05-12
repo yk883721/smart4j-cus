@@ -10,7 +10,7 @@ import java.io.IOException;
 /**
  * @author admin
  */
-@WebServlet("customer_show")
+@WebServlet("/customer_show")
 public class CustomerShowServlet extends HttpServlet {
 
     @Override

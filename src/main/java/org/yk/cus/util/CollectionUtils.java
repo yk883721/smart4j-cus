@@ -3,7 +3,7 @@ package org.yk.cus.util;
 import java.util.Collection;
 import java.util.Map;
 
-public class CollectionsUtils {
+public class CollectionUtils {
 
     public static boolean isNullOrEmpty(Collection<?> coll) {
         return coll == null || coll.isEmpty();
