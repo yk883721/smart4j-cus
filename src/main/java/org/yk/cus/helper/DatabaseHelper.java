@@ -10,7 +10,6 @@ import org.slf4j.LoggerFactory;
 import org.yk.cus.util.CollectionUtils;
 import org.yk.cus.util.PropsUtil;
 
-import javax.jws.Oneway;
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
